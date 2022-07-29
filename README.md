@@ -7,6 +7,6 @@ function stringreverse(){
 
 let reverse=str1.split("").reverse().join("")
 
-console.log(reverse)
+return reverse;
 
 }
