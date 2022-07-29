@@ -1,0 +1,1 @@
+let string2="Javascript string2";
