@@ -51,5 +51,6 @@ console.log(code)
 
 console.log(obj1)
 
-
-
+for(let element in obj1){
+    console.log(obj1[element]);
+}
