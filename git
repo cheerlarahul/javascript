@@ -1,0 +1,70 @@
+Git version control system:
+
+
+
+It is used to store the history of code 
+
+
+Repository: it is a container stored some data
+
+
+Version control two types
+
+
+1)Centralized  : it dosent contain own repository when system crash or user not conected he cant see history 
+
+
+Of code and he cant acess code
+
+
+
+2)Distributed  :  in distributed control system each user as 
+
+Own repository
+
+
+Ex:git
+
+
+Gi clone:
+
+To clone a git repository by using git clone 
+
+
+Git add :
+
+It is used to staging  area the files at once by using git add.
+
+
+Git commit:It is used to record the changes in the repository
+
+
+Commit the code
+
+
+Git commit -m " update data" : m - indicates message
+
+
+Git config --global user.name : to connect git hub account to vscode 
+
+Git config --global email  : to connect github to vs code editor
+
+
+Git log:
+
+Showing the log of data
+
+
+Git checkout :
+
+Git checkout is used to move backward code by using unique id id is know by using git status
+
+
+Git pull:
+
+To take centeral data to local and check all data is updated or not
+
+
+Git push : 
+
+To push the changes to central or main server
