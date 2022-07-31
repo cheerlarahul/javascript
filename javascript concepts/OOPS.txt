@@ -1,0 +1,211 @@
+
+
+Oops:it is used to include real world scenario in programming
+
+1)  Object: is a  real world entity it contain methods and properties
+
+
+			Ex:  cat
+			
+     Properties:
+	 
+				Color
+				
+				Eyes
+				
+				Slin
+				
+				
+		Methods:
+		
+		      
+			    Walking();
+				
+				Running();
+	   
+	   
+	   
+2)   Class:  class is a blueprint to create a object
+
+			
+
+
+3)
+	   Encapsulation: is a functionality hiding the data in a single unit
+	   
+	   To restict the complte properties of an object
+	   
+	   Binding datavariables and methods into a single unit and hides from other classes
+	   
+	   
+4)Abstraction:
+
+
+			Hiding the implementation details showing necessary details
+			
+			Hiding unnecessary details from user 
+			
+			
+			Using let and var to make variables and functions to restic and function scope
+			
+			
+			
+5)Inheritence:
+
+				Acessing the properties and methods from one class to another class
+				
+				
+				Acessing parent properties to child by using extends keyword
+				
+				
+6) Polymorphism :  many forms 
+
+
+					Using same method for differnt purposes 
+					
+					Perform single action in differnt ways
+					
+					
+Oops benfits:
+
+				Reusing of code by using inheritence
+				
+				Flexibility through polymorphism
+				
+				Easier to troubleshoot
+				
+				Code maintainability and redability
+
+
+
+
+
+Hoisting: memory is allocated to program before excusion is  hoisting
+
+		  Acessing function call before declartion of function
+
+
+		  Variable acessing before declaration is undefined in var let and const in not intialized
+		  
+		  
+			
+			
+Closures: is acessing function return values after excuting the function
+
+
+
+Time basec events
+
+Settimeout(): it excutes a code after  time expires
+
+
+Settimeinterval(): it excutes a code repeatedly between time interval
+
+
+Clearinterval(): is used to clear the interval
+
+
+
+Settimeout(): it excutes a code after  time expires
+
+
+Settimeout inside  for loop  using var key word using the same reference because var is global scope  so after for loop ending value will be print
+
+
+Settimeout inside  for loop  using let key word it using reference every time change because let is block scoped so I value will be print 
+
+
+Settimeinterval(): it excutes a code repeatedly between time interval
+
+
+
+Var: global scope attached to window object redeclare a variable after intal value
+
+
+Let: block scope not attached to window object nredeclare after intal value
+
+
+Const:block scope not attached to window object nredeclare mediate ntization of value
+
+
+
+Let var const variables inside the function is functon scoped
+
+
+
+
+This keyword is used to denoted variable  belongs to this class
+
+This.number=number
+
+
+
+Asynch: asynch provide the result in promise object easily handle the promises to run the function asynchronous to make function await we must use asynch before function
+
+Await : await is used to stop the code excution until response is recived easily handle the promises await is used before response send url await is used to recive response directly
+
+It means without promise object  type
+
+
+Destrutchering  : destrutchering is unpack the values from arayor object and assign into a indivisual variables
+
+
+
+Spread: to clone a array or object
+
+
+Rest parameters: to allow indefnite number of parameters
+
+
+//api calling
+
+
+Api:application programming interface
+
+
+.fetch("url"): to send the request to api 
+
+Let api=fetch("url")
+
+.then():sucess result  using then  
+
+Api.then((response)=>{console.log(response.json())})
+
+.json(): to convert the response to json() format
+
+
+.catch(): error message using catch()
+
+Api.catch((message)=>{console.log(message)})
+
+Get: get data
+
+Post : post data
+
+Let api=fetch("url",{
+
+method:'post';
+
+headers{'content-type':application/json charset=utf-8};
+
+body:(json.stringify{id:1,name:"alexa"})
+
+
+})
+
+
+
+Put: edit data
+
+Delete: delete data
+
+
+Callback function: send function as a argument in function
+
+Margin: out side of border
+
+
+Padding: inside of border
+
+
+Highorderd-functions: pass a parameter as a function or return a function
